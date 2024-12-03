@@ -1,0 +1,48 @@
+// Create a user
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+   "name": "Aaz",
+   "email": "aaz@gmail.com",
+   "password": "123456",
+   "confPassword": "123456",
+   "role": "user"
+}
+
+###
+// get All Users
+GET http://localhost:5000/users
+
+###
+/// get Single User
+GET http://localhost:5000/cddf5386-0f71-40a1-90cb-b32c645fef92
+###
+// Update User
+
+POST /login HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+   "name": "Aaz",
+   "email": "admin@gmail.com",
+   "password": "123456",
+   "confPassword": "123456",
+   "role": "admin"
+}
+
+###
+POST HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+ "name": "Azkal",
+ "email": "admin@gmail.com",  
+ "password": "123456",
+ "confPassword": "123456",
+ "role": "admin"
+}
+
+
